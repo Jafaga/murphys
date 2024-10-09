@@ -1,0 +1,36 @@
+#topMenu {
+    padding: 10px 0;
+}
+
+.grad-background {
+    background-image: url('http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphys-new-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-light {
+    color: white;
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    background-color: rgb(48,78,41);
+    padding: 20px;
+}
+#topMenu .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.1rem;  /* Adjust this for larger/smaller font size */
+    margin-right: 20px; /* Adjust spacing between the nav items */
+}
+
+#topMenu .navbar-brand img {
+    max-height: 70px;   /* Adjust height of logo */
+    margin-right: 20px; /* Space between logo and menu items */
+}
+
+
